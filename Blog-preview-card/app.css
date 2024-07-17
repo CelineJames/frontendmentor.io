@@ -123,6 +123,19 @@ p:nth-of-type(2){
             line-height: 22px;
             font-size: 14px;
         }
+        .footer img{
+            height: 33px;
+            width: 33px;
+            margin-top: 2px;
+         }
+         
+         .footer p{
+             font-size: 14px;
+             font-weight: 800;
+             padding-left: 15px;
+             margin-top: 2px;
+         }
+         
 
 
 }
