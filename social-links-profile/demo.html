@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Mr Pineaple's pizzeria</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="/">
+            <span class="visually-hidden">Mr  pineapple's pizzeria</span>
+        </a>
+    </header>
+
+    <nav aria-label="primary">
+        <ul>
+            <li><a aria-current="page" href="/"> home</a></li>
+            <li><a href="/menu">Our pizzas</a></li>
+            <li><a href="/contact">Get in touch</a></li>
+        </ul>
+    </nav>
+
+    <form name="site-search" action="/search" method="get" role="search">
+        <label>
+            find your perfect pizza
+            <input type="search" id="query" name="query"/>
+        </label>
+    </form>
+
+    <main>
+        <section aria-label="our pizzas heading">
+            <h2 id="our-pizzas-heading">Our Pizzas</h2>
+            <p>All our Pizzas come with the best pizza topping sin the world. Pineapple!
+            </p>
+            <ul>
+                <li>Magarita with pinapple</li>
+                <li>veggie with pinapple</li>
+                <li>Meaty with pinapple</li>
+            </ul>
+        </section>
+        <aside aria-labelledby="pizza-recipe-heading">
+          <h3 id="pizza-recipe-heading">Make your own pie</h3>
+          <p>Below is a list of favourite pizza recipe</p>
+          <ul>
+            <li><a href="/">The shroom</a></li>
+            <li><a href="/">The shroom</a></li>
+            <li><a href="/">The shroom</a></li>
+          </ul>
+        </aside>
+
+        
+        
+    </main>
+
+</body>
+</html>
